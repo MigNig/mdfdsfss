@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amostra Cultural</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .conteudo {
+            max-width: 80%;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+            overflow-y: auto; /* Permite rolagem vertical se o conteúdo for maior que a área */
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 28px;
+            color: #333;
+        }
+
+        p {
+            font-size: 18px;
+            color: #666;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="conteudo">
+        <h1>Mostra Cultural</h1>
+        <p>2000 a 2023</p>
+        
+        <!-- Apenas a primeira imagem -->
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDAQiZqTTjsgAqeFWIMAItE5yGebTWzcAhBA&usqp=CAU" alt="Imagem">
+        
+        <!-- Conteúdo adicional que pode ser rolado para baixo se necessário -->
+        <p>Do cristal de galena à era da convegência tecnológica, o rádio percorreu um longo caminho. E os modos de ouvi-lo também foram ganhando novos contornos.
+
+Nas primeiras décadas do século vinte, as famílias se reuniam em torno do aparelho de rádio: um móvel central nos lares que tinham o previlégio de possuí-lo.
+
+A era de ouro do radio, anos 1940, foi marcada pela enorme audiência e por inovações em seu dispendioso processo de produção.
+
+Escutar rádio era, então , uma experiêcia coletiva familiar. Reunir-se em torno do aparelho e apresciar a música, a informação, o esporte ou os programas de entreterimento era um ritual realizado individualmente    </p>
+    </div>
+</body>
+</html>
